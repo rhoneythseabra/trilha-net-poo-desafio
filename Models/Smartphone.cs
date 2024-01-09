@@ -13,13 +13,13 @@ namespace DesafioPOO.Models
 
         public Smartphone(string numero, string modelo, string imei, int memoria)
         {
-            Numero = numero;
+            numero = Numero;
             // TODO: Passar os parâmetros do construtor para as propriedades
-            Modelo = modelo;
+            modelo = Modelo;
 
-            IMEI = imei;
+            imei = IMEI;
 
-            Memoria = memoria;
+            memoria = Memoria;
         }
 
         public void Ligar()
